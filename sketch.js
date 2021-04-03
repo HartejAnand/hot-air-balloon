@@ -29,7 +29,7 @@ function setup() {
 function draw() {
   background(bg);
 
-  if(height !=undefined){
+  if(height !==undefined){
     if(keyDown(LEFT_ARROW)){
       balloon.addAnimation("hotAirBalloon",balloonImage2);
       //write code to move air balloon in left direction
